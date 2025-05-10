@@ -69,7 +69,7 @@ backend.render = function(image, x, y, width, height)
     identifier = image.id,
     path = image.cropped_path,
     x = x,
-    y = y + 20, --hackjob
+    y = y + 1, --hackjob
     width = width,
     height = height,
   })
