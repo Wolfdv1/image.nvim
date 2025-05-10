@@ -19,7 +19,7 @@ end
 ---@return { x: number, y: number }
 local get_global_offsets = function(window_id)
   local x = 0
-  local y = 0
+  local y = 1
   -- if vim.opt.number then x = x + vim.opt.numberwidth:get() end
   -- if vim.opt.signcolumn ~= "no" then x = x + 2 end
 
